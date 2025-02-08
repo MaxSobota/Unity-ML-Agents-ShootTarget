@@ -1,0 +1,29 @@
+Unity.gitignore 
+# Unity Auto-Generated Folders (Do Not Commit)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+.vscode/
+.idea/
+
+# Unity Package Cache (can be regenerated)
+Packages/com.unity.package-manager/
+
+# Python Virtual Environment (if used)
+venv/
+*.pyc
+__pycache__/
+
+# Large Files from PyTorch (if using ML)
+venv/Lib/site-packages/torch/lib/
+
+# Ignore User-Specific Unity Settings
+UserSettings/
+
+# Ignore OS-Specific Files
+.DS_Store
+Thumbs.db

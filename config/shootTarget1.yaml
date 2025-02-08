@@ -1,0 +1,12 @@
+behaviors:
+  ShootTarget:
+    trainer_type: ppo
+    max_steps: 7.5e5
+    time_horizon: 64
+    summary_freq: 10000
+    keep_checkpoints: 5
+    checkpoint_interval: 50000
+    threaded: false
+    hyperparameters:
+      batch_size: 128
+      buffer_size: 2048

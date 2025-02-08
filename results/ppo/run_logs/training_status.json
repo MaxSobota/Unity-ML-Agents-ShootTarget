@@ -1,0 +1,65 @@
+{
+    "ShootTarget": {
+        "checkpoints": [
+            {
+                "steps": 599985,
+                "file_path": "results\\ppo\\ShootTarget\\ShootTarget-599985.onnx",
+                "reward": 0.8147812522947788,
+                "creation_time": 1739048588.3206775,
+                "auxillary_file_paths": [
+                    "results\\ppo\\ShootTarget\\ShootTarget-599985.pt"
+                ]
+            },
+            {
+                "steps": 649998,
+                "file_path": "results\\ppo\\ShootTarget\\ShootTarget-649998.onnx",
+                "reward": 0.8163548381097855,
+                "creation_time": 1739048636.7971761,
+                "auxillary_file_paths": [
+                    "results\\ppo\\ShootTarget\\ShootTarget-649998.pt"
+                ]
+            },
+            {
+                "steps": 699984,
+                "file_path": "results\\ppo\\ShootTarget\\ShootTarget-699984.onnx",
+                "reward": 0.769555554787318,
+                "creation_time": 1739048682.9621313,
+                "auxillary_file_paths": [
+                    "results\\ppo\\ShootTarget\\ShootTarget-699984.pt"
+                ]
+            },
+            {
+                "steps": 749990,
+                "file_path": "results\\ppo\\ShootTarget\\ShootTarget-749990.onnx",
+                "reward": 0.7814418631930684,
+                "creation_time": 1739048730.3130832,
+                "auxillary_file_paths": [
+                    "results\\ppo\\ShootTarget\\ShootTarget-749990.pt"
+                ]
+            },
+            {
+                "steps": 750012,
+                "file_path": "results\\ppo\\ShootTarget\\ShootTarget-750012.onnx",
+                "reward": 0.7385681840506467,
+                "creation_time": 1739048730.374112,
+                "auxillary_file_paths": [
+                    "results\\ppo\\ShootTarget\\ShootTarget-750012.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 750012,
+            "file_path": "results\\ppo\\ShootTarget.onnx",
+            "reward": 0.7385681840506467,
+            "creation_time": 1739048730.374112,
+            "auxillary_file_paths": [
+                "results\\ppo\\ShootTarget\\ShootTarget-750012.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}
